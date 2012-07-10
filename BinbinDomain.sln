@@ -1,0 +1,173 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7972A557-D359-430D-A2A4-D03AF09E647A}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinbinDomain", "BinbinDomain\BinbinDomain.csproj", "{A92973FD-5AD4-4DAB-98D6-36B53303EC6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinbinDomain.IntergrationLinqToSql", "BinbinDomainImpl\BinbinDomain.IntergrationLinqToSql.csproj", "{A9E969B8-3E16-4103-B0C2-D1A06C200DD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinbinDomain.IntergrationEntityFramework", "BinbinDomain.IntergrationEntityFramework\BinbinDomain.IntergrationEntityFramework.csproj", "{A4A74457-193F-462C-9C4D-8C52A3CD3A9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinbinRepository", "BinbinRepository\BinbinRepository.csproj", "{AA57C5BF-CC5B-436C-8B76-3E370121361B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinbinRepository.Intergrations.LinqToSql", "BinbinRepository.Intergrations.LinqToSql\BinbinRepository.Intergrations.LinqToSql.csproj", "{890D18B8-C5FB-4463-881A-46FB2E0648BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinbinRepository.Intergrations.EntityFramework", "BinbinRepository.Intergrations.EntityFramework\BinbinRepository.Intergrations.EntityFramework.csproj", "{DCFAA434-5D08-4F50-8B68-B01A6813A745}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.BinbinRepository.Intergrations.EntityFramework", "Samples.BinbinRepository.Intergrations.EntityFramework\Samples.BinbinRepository.Intergrations.EntityFramework.csproj", "{A139C7DD-BF08-4BC0-B48A-30C7C07CE54E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.BinbinRepository.Intergrations.LinqToSql", "Samples.BinbinRepository.Intergrations.LinqToSql\Samples.BinbinRepository.Intergrations.LinqToSql.csproj", "{69A57999-40BD-49DC-83CB-1F97C3151324}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinbinRepository.Intergrations.EntityFramework.Unity", "BinbinRepository.Intergrations.EntityFramework.Unity\BinbinRepository.Intergrations.EntityFramework.Unity.csproj", "{D22A5191-918B-4837-9663-6D3A777A757B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinbinRepository.Intergrations.LinqToSql.Unity", "BinbinRepository.Intergration.LinqToSql.Unity\BinbinRepository.Intergrations.LinqToSql.Unity.csproj", "{4180F7F6-74B7-4382-8E43-787DD35023C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{7818A225-ABFC-447C-829F-9F485FFC1D6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{D92468BE-B631-4E06-BE48-5BE537A3FB27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{DF6D53A9-CCCD-448D-99D2-72F486AD47C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ControllerFactory", "ControllerFactory", "{6BFD1CDC-29FB-4FE9-84DA-20E787BDDA43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinbinControllerFactory.Intergrations.Unity", "BinbinControllerFactory.Intergrations.Unity\BinbinControllerFactory.Intergrations.Unity.csproj", "{08D4E83B-89F4-4090-A131-708D8A7493B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyResolver", "DependencyResolver", "{12686289-C011-4885-9348-DF6E7691D3E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinbinDependencyResolver.Intergrations.Unity", "BinbinDependencyResolver.Intergrations.Unity\BinbinDependencyResolver.Intergrations.Unity.csproj", "{7A003FA5-38D4-4729-9CAC-249116C52DFA}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccLocalPath0 = .
+		SccLocalPath1 = BinbinDomain
+		SccLocalPath10 = BinbinRepository.Intergration.LinqToSql.Unity
+		SccLocalPath11 = BinbinControllerFactory.Intergrations.Unity
+		SccLocalPath12 = BinbinDependencyResolver.Intergrations.Unity
+		SccLocalPath2 = BinbinDomainImpl
+		SccLocalPath3 = BinbinDomain.IntergrationEntityFramework
+		SccLocalPath4 = BinbinRepository
+		SccLocalPath5 = BinbinRepository.Intergrations.LinqToSql
+		SccLocalPath6 = BinbinRepository.Intergrations.EntityFramework
+		SccLocalPath7 = Samples.BinbinRepository.Intergrations.EntityFramework
+		SccLocalPath8 = Samples.BinbinRepository.Intergrations.LinqToSql
+		SccLocalPath9 = BinbinRepository.Intergrations.EntityFramework.Unity
+		SccNumberOfProjects = 13
+		SccProjectName1 = BinbinDomain
+		SccProjectName10 = BinbinRepository.Intergration.LinqToSql.Unity
+		SccProjectName11 = BinbinControllerFactory.Intergrations.Unity
+		SccProjectName12 = BinbinDependencyResolver.Intergrations.Unity
+		SccProjectName2 = BinbinDomainImpl
+		SccProjectName3 = BinbinDomain.IntergrationEntityFramework
+		SccProjectName4 = BinbinRepository
+		SccProjectName5 = BinbinRepository.Intergrations.LinqToSql
+		SccProjectName6 = BinbinRepository.Intergrations.EntityFramework
+		SccProjectName7 = Samples.BinbinRepository.Intergrations.EntityFramework
+		SccProjectName8 = Samples.BinbinRepository.Intergrations.LinqToSql
+		SccProjectName9 = BinbinRepository.Intergrations.EntityFramework.Unity
+		SccProjectTopLevelParentUniqueName1 = BinbinDomain.sln
+		SccProjectTopLevelParentUniqueName10 = BinbinDomain.sln
+		SccProjectTopLevelParentUniqueName11 = BinbinDomain.sln
+		SccProjectTopLevelParentUniqueName12 = BinbinDomain.sln
+		SccProjectTopLevelParentUniqueName2 = BinbinDomain.sln
+		SccProjectTopLevelParentUniqueName3 = BinbinDomain.sln
+		SccProjectTopLevelParentUniqueName4 = BinbinDomain.sln
+		SccProjectTopLevelParentUniqueName5 = BinbinDomain.sln
+		SccProjectTopLevelParentUniqueName6 = BinbinDomain.sln
+		SccProjectTopLevelParentUniqueName7 = BinbinDomain.sln
+		SccProjectTopLevelParentUniqueName8 = BinbinDomain.sln
+		SccProjectTopLevelParentUniqueName9 = BinbinDomain.sln
+		SccProjectUniqueName1 = BinbinDomain\\BinbinDomain.csproj
+		SccProjectUniqueName10 = BinbinRepository.Intergration.LinqToSql.Unity\\BinbinRepository.Intergrations.LinqToSql.Unity.csproj
+		SccProjectUniqueName11 = BinbinControllerFactory.Intergrations.Unity\\BinbinControllerFactory.Intergrations.Unity.csproj
+		SccProjectUniqueName12 = BinbinDependencyResolver.Intergrations.Unity\\BinbinDependencyResolver.Intergrations.Unity.csproj
+		SccProjectUniqueName2 = BinbinDomainImpl\\BinbinDomain.IntergrationLinqToSql.csproj
+		SccProjectUniqueName3 = BinbinDomain.IntergrationEntityFramework\\BinbinDomain.IntergrationEntityFramework.csproj
+		SccProjectUniqueName4 = BinbinRepository\\BinbinRepository.csproj
+		SccProjectUniqueName5 = BinbinRepository.Intergrations.LinqToSql\\BinbinRepository.Intergrations.LinqToSql.csproj
+		SccProjectUniqueName6 = BinbinRepository.Intergrations.EntityFramework\\BinbinRepository.Intergrations.EntityFramework.csproj
+		SccProjectUniqueName7 = Samples.BinbinRepository.Intergrations.EntityFramework\\Samples.BinbinRepository.Intergrations.EntityFramework.csproj
+		SccProjectUniqueName8 = Samples.BinbinRepository.Intergrations.LinqToSql\\Samples.BinbinRepository.Intergrations.LinqToSql.csproj
+		SccProjectUniqueName9 = BinbinRepository.Intergrations.EntityFramework.Unity\\BinbinRepository.Intergrations.EntityFramework.Unity.csproj
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs08
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08D4E83B-89F4-4090-A131-708D8A7493B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08D4E83B-89F4-4090-A131-708D8A7493B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08D4E83B-89F4-4090-A131-708D8A7493B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08D4E83B-89F4-4090-A131-708D8A7493B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4180F7F6-74B7-4382-8E43-787DD35023C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4180F7F6-74B7-4382-8E43-787DD35023C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4180F7F6-74B7-4382-8E43-787DD35023C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4180F7F6-74B7-4382-8E43-787DD35023C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69A57999-40BD-49DC-83CB-1F97C3151324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69A57999-40BD-49DC-83CB-1F97C3151324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69A57999-40BD-49DC-83CB-1F97C3151324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69A57999-40BD-49DC-83CB-1F97C3151324}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A003FA5-38D4-4729-9CAC-249116C52DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A003FA5-38D4-4729-9CAC-249116C52DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A003FA5-38D4-4729-9CAC-249116C52DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A003FA5-38D4-4729-9CAC-249116C52DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{890D18B8-C5FB-4463-881A-46FB2E0648BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{890D18B8-C5FB-4463-881A-46FB2E0648BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{890D18B8-C5FB-4463-881A-46FB2E0648BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{890D18B8-C5FB-4463-881A-46FB2E0648BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A139C7DD-BF08-4BC0-B48A-30C7C07CE54E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A139C7DD-BF08-4BC0-B48A-30C7C07CE54E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A139C7DD-BF08-4BC0-B48A-30C7C07CE54E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A139C7DD-BF08-4BC0-B48A-30C7C07CE54E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4A74457-193F-462C-9C4D-8C52A3CD3A9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4A74457-193F-462C-9C4D-8C52A3CD3A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4A74457-193F-462C-9C4D-8C52A3CD3A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4A74457-193F-462C-9C4D-8C52A3CD3A9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A92973FD-5AD4-4DAB-98D6-36B53303EC6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A92973FD-5AD4-4DAB-98D6-36B53303EC6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A92973FD-5AD4-4DAB-98D6-36B53303EC6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A92973FD-5AD4-4DAB-98D6-36B53303EC6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9E969B8-3E16-4103-B0C2-D1A06C200DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9E969B8-3E16-4103-B0C2-D1A06C200DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9E969B8-3E16-4103-B0C2-D1A06C200DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E969B8-3E16-4103-B0C2-D1A06C200DD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA57C5BF-CC5B-436C-8B76-3E370121361B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA57C5BF-CC5B-436C-8B76-3E370121361B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA57C5BF-CC5B-436C-8B76-3E370121361B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA57C5BF-CC5B-436C-8B76-3E370121361B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D22A5191-918B-4837-9663-6D3A777A757B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D22A5191-918B-4837-9663-6D3A777A757B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D22A5191-918B-4837-9663-6D3A777A757B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D22A5191-918B-4837-9663-6D3A777A757B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCFAA434-5D08-4F50-8B68-B01A6813A745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCFAA434-5D08-4F50-8B68-B01A6813A745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCFAA434-5D08-4F50-8B68-B01A6813A745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCFAA434-5D08-4F50-8B68-B01A6813A745}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08D4E83B-89F4-4090-A131-708D8A7493B2} = {6BFD1CDC-29FB-4FE9-84DA-20E787BDDA43}
+		{4180F7F6-74B7-4382-8E43-787DD35023C2} = {DF6D53A9-CCCD-448D-99D2-72F486AD47C3}
+		{69A57999-40BD-49DC-83CB-1F97C3151324} = {7818A225-ABFC-447C-829F-9F485FFC1D6C}
+		{7A003FA5-38D4-4729-9CAC-249116C52DFA} = {12686289-C011-4885-9348-DF6E7691D3E8}
+		{890D18B8-C5FB-4463-881A-46FB2E0648BB} = {DF6D53A9-CCCD-448D-99D2-72F486AD47C3}
+		{A139C7DD-BF08-4BC0-B48A-30C7C07CE54E} = {7818A225-ABFC-447C-829F-9F485FFC1D6C}
+		{A4A74457-193F-462C-9C4D-8C52A3CD3A9D} = {D92468BE-B631-4E06-BE48-5BE537A3FB27}
+		{A92973FD-5AD4-4DAB-98D6-36B53303EC6B} = {D92468BE-B631-4E06-BE48-5BE537A3FB27}
+		{A9E969B8-3E16-4103-B0C2-D1A06C200DD8} = {D92468BE-B631-4E06-BE48-5BE537A3FB27}
+		{AA57C5BF-CC5B-436C-8B76-3E370121361B} = {DF6D53A9-CCCD-448D-99D2-72F486AD47C3}
+		{D22A5191-918B-4837-9663-6D3A777A757B} = {DF6D53A9-CCCD-448D-99D2-72F486AD47C3}
+		{DCFAA434-5D08-4F50-8B68-B01A6813A745} = {DF6D53A9-CCCD-448D-99D2-72F486AD47C3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
+	EndGlobalSection
+EndGlobal
