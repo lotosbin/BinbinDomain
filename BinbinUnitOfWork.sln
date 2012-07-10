@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7EC91704-C4CF-45A1-9A94-D7AD0A33625B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinbinUnitOfWorkForNet40LinqToSql", "BinbinUnitOfWork\BinbinUnitOfWorkForNet40LinqToSql.csproj", "{06BF02E7-805F-4152-A0A0-98CF10DC7A4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinbinUnitOfWork.Common", "BinbinUnitOfWork.Common\BinbinUnitOfWork.Common.csproj", "{63AA5474-D746-41DC-901F-139B2B94DD5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinbinUnitOfWork.Intergration.EntityFramework", "BinbinUnitOfWork.Intergration.EntityFramework\BinbinUnitOfWork.Intergration.EntityFramework.csproj", "{9206E7BC-10FA-4E43-B6E1-0BC96DD8F109}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinbinUnitOfWork.Intergration.LingToSql", "BinbinUnitOfWork.Intergration.LingToSql\BinbinUnitOfWork.Intergration.LingToSql.csproj", "{B75057E3-49F5-44B5-8DA0-2105BCA39918}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccLocalPath0 = .
+		SccLocalPath1 = BinbinUnitOfWork
+		SccLocalPath2 = BinbinUnitOfWork.Common
+		SccLocalPath3 = BinbinUnitOfWork.Intergration.EntityFramework
+		SccLocalPath4 = BinbinUnitOfWork.Intergration.LingToSql
+		SccNumberOfProjects = 5
+		SccProjectName1 = BinbinUnitOfWork
+		SccProjectName2 = BinbinUnitOfWork.Common
+		SccProjectName3 = BinbinUnitOfWork.Intergration.EntityFramework
+		SccProjectName4 = BinbinUnitOfWork.Intergration.LingToSql
+		SccProjectUniqueName1 = BinbinUnitOfWork\\BinbinUnitOfWorkForNet40LinqToSql.csproj
+		SccProjectUniqueName2 = BinbinUnitOfWork.Common\\BinbinUnitOfWork.Common.csproj
+		SccProjectUniqueName3 = BinbinUnitOfWork.Intergration.EntityFramework\\BinbinUnitOfWork.Intergration.EntityFramework.csproj
+		SccProjectUniqueName4 = BinbinUnitOfWork.Intergration.LingToSql\\BinbinUnitOfWork.Intergration.LingToSql.csproj
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs08
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06BF02E7-805F-4152-A0A0-98CF10DC7A4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06BF02E7-805F-4152-A0A0-98CF10DC7A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06BF02E7-805F-4152-A0A0-98CF10DC7A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06BF02E7-805F-4152-A0A0-98CF10DC7A4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63AA5474-D746-41DC-901F-139B2B94DD5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63AA5474-D746-41DC-901F-139B2B94DD5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63AA5474-D746-41DC-901F-139B2B94DD5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63AA5474-D746-41DC-901F-139B2B94DD5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9206E7BC-10FA-4E43-B6E1-0BC96DD8F109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9206E7BC-10FA-4E43-B6E1-0BC96DD8F109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9206E7BC-10FA-4E43-B6E1-0BC96DD8F109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9206E7BC-10FA-4E43-B6E1-0BC96DD8F109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B75057E3-49F5-44B5-8DA0-2105BCA39918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B75057E3-49F5-44B5-8DA0-2105BCA39918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B75057E3-49F5-44B5-8DA0-2105BCA39918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B75057E3-49F5-44B5-8DA0-2105BCA39918}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
