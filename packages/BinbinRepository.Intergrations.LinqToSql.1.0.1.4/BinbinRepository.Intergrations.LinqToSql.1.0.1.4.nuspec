@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>BinbinRepository.Intergrations.LinqToSql</id>
+    <version>1.0.1.4</version>
+    <title>BinbinRepository.Intergrations.LinqToSql</title>
+    <authors>lotosbin</authors>
+    <owners>lotosbin</owners>
+    <licenseUrl>http://license_url_here_or_delete_this_line/</licenseUrl>
+    <projectUrl>http://project_url_here_or_delete_this_line/</projectUrl>
+    <iconUrl>http://icon_url_here_or_delete_this_line/</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>BinbinRepository.Intergrations.LinqToSql</description>
+    <releaseNotes>默认实现Find(Expression&lt;Func&lt;TEntity, bool&gt;&gt; expression)</releaseNotes>
+    <copyright>Copyright 2012</copyright>
+    <tags>Repository LinqToSql DDD</tags>
+    <dependencies>
+      <dependency id="BinbinRepository" version="1.0.0.0" />
+    </dependencies>
+  </metadata>
+</package>

@@ -3,15 +3,13 @@ using System.Collections.Generic;
 using System.Data.Linq;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
 
 namespace BinbinRepository.Intergrations.LinqToSql
 {
-    public abstract class Repository<TDataContext, TEntity> : IRepository<TEntity, int>
+    public abstract class Repository<TDataContext, TEntity, TKey> : IRepository<TEntity, TKey>
         where TDataContext : DataContext
         where TEntity : class
     {
-
         public Repository(TDataContext dataContext)
         {
             this.DataContext = dataContext;
@@ -23,8 +21,6 @@ namespace BinbinRepository.Intergrations.LinqToSql
         {
             return this.DataContext.GetTable<TEntity>().Where(expression).ToList();
         }
-
-        public abstract TEntity Find(int key);
 
         public virtual void Add(TEntity entity)
         {
@@ -41,6 +37,30 @@ namespace BinbinRepository.Intergrations.LinqToSql
         public virtual void Save(TEntity entity)
         {
             this.DataContext.SubmitChanges();
+        }
+
+        public virtual TEntity Find(TKey key)
+        {
+            var itemParameter = Expression.Parameter(typeof (TEntity), "item");
+            var whereExpression = Expression.Lambda<Func<TEntity, bool>>
+                (
+                    Expression.Equal(
+                        Expression.Property(
+                            itemParameter,
+                            this.GetPrimaryKeyName()
+                            ),
+                        Expression.Constant(key)
+                        ),
+                    new[] {itemParameter}
+                );
+            return this.DataContext.GetTable<TEntity>().Where(whereExpression).Single();
+        }
+
+        public string GetPrimaryKeyName()
+        {
+            var metaType = this.DataContext.Mapping.GetMetaType(typeof (TEntity));
+            var primaryKey = metaType.DataMembers.Single(m => m.IsPrimaryKey);
+            return primaryKey.Name;
         }
 
         #endregion

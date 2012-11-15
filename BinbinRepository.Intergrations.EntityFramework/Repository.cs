@@ -3,19 +3,18 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
 
 namespace BinbinRepository.Intergrations.EntityFramework
 {
-    public class Repository<TDataContext, TEntity> : IRepository<TEntity, int>
+    public class Repository<TDataContext, TEntity, TKey> : IRepository<TEntity, TKey>
         where TDataContext : DbContext
         where TEntity : class
     {
-        private TDataContext DataContext { get; set; }
         public Repository(TDataContext dataContext)
         {
             this.DataContext = dataContext;
         }
+
         #region Implementation of IRepository<TEntity,in int>
 
         public virtual List<TEntity> Find(Expression<Func<TEntity, bool>> expression)
@@ -23,7 +22,7 @@ namespace BinbinRepository.Intergrations.EntityFramework
             return this.DataContext.Set<TEntity>().Where(expression).ToList();
         }
 
-        public virtual TEntity Find(int key)
+        public virtual TEntity Find(TKey key)
         {
             return this.DataContext.Set<TEntity>().Find(key);
         }
@@ -46,5 +45,7 @@ namespace BinbinRepository.Intergrations.EntityFramework
         }
 
         #endregion
+
+        private TDataContext DataContext { get; set; }
     }
 }

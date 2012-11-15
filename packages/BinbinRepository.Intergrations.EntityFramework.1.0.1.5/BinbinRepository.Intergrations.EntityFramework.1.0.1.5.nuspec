@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>BinbinRepository.Intergrations.EntityFramework</id>
+    <version>1.0.1.5</version>
+    <title>BinbinRepository.Intergrations.EntityFramework</title>
+    <authors>lotosbin</authors>
+    <owners>lotosbin</owners>
+    <licenseUrl>http://license_url_here_or_delete_this_line/</licenseUrl>
+    <projectUrl>http://project_url_here_or_delete_this_line/</projectUrl>
+    <iconUrl>http://icon_url_here_or_delete_this_line/</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>BinbinRepository.Intergrations.EntityFramework</description>
+    <releaseNotes>默认实现Find方法</releaseNotes>
+    <copyright>Copyright 2012</copyright>
+    <tags>Tag1 Tag2</tags>
+    <dependencies>
+      <dependency id="BinbinRepository" version="1.0.0.0" />
+      <dependency id="EntityFramework" version="4.3.1" />
+    </dependencies>
+  </metadata>
+</package>
